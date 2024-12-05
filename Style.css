@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    display: grid;
+    height: 100vh;
+    place-content: center;
+    font-size: 1rem;
+    overflow: hidden;
+}
+
+
+.accordin-item{
+    position: relative;
+    
+   
+}
+.accordin-item .item{
+    margin-bottom: 10px;
+    
+}
+.accordin-item .item button{
+    background-color: white;
+    display: block;
+    width: 800px;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 800;
+    text-align: left;
+}
+.accordin-item .item .content{
+    background-color: gray;
+    padding: 15px;
+    display: none;
+    width: 800px;
+    
+}
+.active{
+    background-color:darkslategrey !important;
+}
+@media (min-width:768px){
+    .container{
+        width: 750px;
+    }
+}
+@media (min-width: 992px){
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
